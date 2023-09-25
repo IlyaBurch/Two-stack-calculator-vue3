@@ -1,5 +1,6 @@
 <template>
-  <button class="button">{{ symbol }}</button>
+  <button class="button">{{ symbol }}
+  </button>
 </template>
 
 <script>
@@ -7,7 +8,7 @@ export default {
     name: 'ButtonInput',
     props: {
       symbol: String,
-    }
+    },
 }
 </script>
 
@@ -20,13 +21,13 @@ button{
   background: #2E2F38;
   color: #FFF;
   text-align: center;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
   line-height: 40px; /* 125% */
   &:active{
-    background: #4B5EFC;
+    background: #949fff;
   }
 }
 </style>
